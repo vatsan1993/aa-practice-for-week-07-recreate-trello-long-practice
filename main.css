@@ -51,3 +51,61 @@
  .header-nav__button > i{
   width: 24px;
 }
+
+
+body{
+  font-family: 'Segoe UI', 'Roboto', 'Noto Sans', 'Ubuntu', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+
+.header-nav__container{
+  background-color:	#026AA7;
+  font-size:	16px;
+  line-height: 20px;
+  padding:4px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav__link #alerts{
+  background-color: #CF513D;
+}
+
+@media screen and (max-width: 730px) {
+  /* Hide the header search input field. */
+  input[type='search']{
+    display: none;
+  }
+  /* Hide the "Boards" text, but leave the boards icon. */
+  .boards-label{
+    display: none;
+  }
+}
+
+.team__container{
+  background-color:	#f4f5f7;
+  padding:	32 px;
+}
+
+.team__info{
+  flex-direction:	column;
+  margin:	0 auto;
+  max-width:	650px;
+  text-align:	center;
+}
+
+.team__info > h1 {
+  margin:	0 0 12px;
+  font-size:	24px;
+  font-weight:	600;
+  line-height:	28px;
+}
+
+.team__info > a{
+  color:	#172b4d;
+  line-height:	20px;
+  font-weight: normal;
+}
+
